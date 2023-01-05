@@ -62,7 +62,11 @@ nav .primary-btn{
     top: 0;
     right: -507px;
 }
-
+.developer {
+    position: relative;
+    top: 0;
+    right: 1333px;
+  }
 .banner-title h3{
     font-size: 45px;
     font-weight: 600;
@@ -106,13 +110,45 @@ nav .primary-btn{
     font-weight:700;
 }
 
-
-/* about section */
-
-.about {
-    margin: 130px 230px;
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 110px auto;
     background-color: #FFF8F3;
-    padding: 130px 155px;
     border-radius: 5px;
+}
+/* about section */
+.about{
+    padding: 120px 150px;
+}
+.section-title{
+    font-weight: 700 ;
+    font-size: 35px;
     text-align: center;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.info-text{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info-dec{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
 }
