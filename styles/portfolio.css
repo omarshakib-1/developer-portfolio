@@ -173,7 +173,124 @@ main{
 .card-bar{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
-    background-color: #fff;
-    
+    margin: 50px 0; 
+    gap: 24px;
 }
+.card{
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px 30px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.card-text{
+    color: #757575;
+    font-size: 16px;
+    width: 201px;
+}
+
+/* resume related styles */
+
+.resume-content{
+    display: flex;
+    margin-top: 130px;
+    gap: 24px;
+}
+.resume-h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.resume-h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.resume-h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-text{
+    font-size: 16px;
+    font-weight: 40;
+    color: #757575;
+    padding: 25px 0;
+    border-bottom: 1px solid #757575;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    padding: 18px 18px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 479px;
+    width: 200px;
+}
+
+.section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 120px 130px;
+    gap: 110px;
+}
+.contact p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin: 25px 0;
+    width: 363px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 24px;
+}
+input {
+    height: 42px;
+    width: 442px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 23px;
+    border-radius: 5px;
+    border: 0;
+    color: #757575;
+}
+textarea{
+    width: 440px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding: 18px 23px;
+    border: 0;
+    border-radius: 5px;
+}
+.form-btn{
+    background-color: #FD6E0A;
+    margin-top: 24px;
+    padding: 20px 40px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+/* foooters section */
+
