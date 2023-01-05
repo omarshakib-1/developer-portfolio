@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.primary-background{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+/* header & navegation styles */
+header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+nav{
+    padding: 40px 225px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav .nav-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav .nav-menu li{
+    padding: 0 51px;
+}
+nav li{
+    color:#474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav .primary-btn{
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #FD6E0A;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+/* banner title */
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding:0 200px;
+}
+.banner-image {
+    position: relative;
+    top: 0;
+    right: -507px;
+}
+
+.banner-title h3{
+    font-size: 45px;
+    font-weight: 600;
+    width: 177px;
+    color: #474747;
+}
+.banner-title h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    width: 548px;
+    margin: 25px 0;
+}
+.banner-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+    width: 571px;
+  }
+.btn-1{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 18px 17px;
+    width: 200px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.btn-2{
+    /* border: none; */
+    border-color:2px solid #FD6E0A;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    padding: 18px 17px;
+    color: #FD6E0A;
+    font-weight:700;
+}
+
+
+/* about section */
+
+.about {
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+    border-radius: 5px;
+    text-align: center;
+}
