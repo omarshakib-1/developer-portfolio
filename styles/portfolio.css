@@ -114,12 +114,12 @@ nav .primary-btn{
 main{
     max-width: 1140px;
     margin: 110px auto;
-    background-color: #FFF8F3;
-    border-radius: 5px;
 }
 /* about section */
 .about{
     padding: 120px 150px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
 }
 .section-title{
     font-weight: 700 ;
@@ -151,4 +151,29 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* what do section */
+.what-do{
+   width: 1140px;
+   margin: 120px auto;
+}
+.what-text{
+    width: 909px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* what i do's card section */
+
+.card-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #fff;
+    
 }
